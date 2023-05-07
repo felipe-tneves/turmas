@@ -1,0 +1,268 @@
+@font-face{
+    font-family:pomp;
+    src: url(../fontes/Pompiere.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    font-family: arial;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main p{
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #660027;
+    font-family: pomp;
+    
+}
+
+.card-pai{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;/*qdo não couber mais o conteúdo, quebra linha*/
+}
+
+.card{
+    width: 250px;
+    border: 1px solid #E5E5E5;
+    padding-bottom: 30px;
+    
+}
+
+.card h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #660027;
+    font-size: 24px;
+    font-family: pomp;
+    
+}
+.card p, .card a, .card h3{
+    margin: 25px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #660027;
+    border: 2px solid #660027;
+    padding: 10px 20px;
+    border-radius: 4px;/*arredondamento das extremidades*/
+}
+
+.banner-fotos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.conteudo-texto{
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+
+textarea{
+    height: 125px;
+}
+
+.btn-form{
+    background-color: #660027;
+    color: white;
+    padding: 10px 20px;
+    max-width: 128px;
+}
+
+.btn-form:hover{
+    background-color: white;
+    color: #660027;
+}
+
+.lado-esquerdo{
+    width: 780px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.lado-direito{
+    width: 400px;
+    background-color: #660027;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contato{
+    display: none;
+}
+
+footer{
+    background-color: #660027;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 90px;
+}
+
+.botao-menu{
+    display: none;
+}
+
+
+/*Responsividade*/
+
+/*TABLET*/
+
+@media (max-width:1169px){
+    nav{
+        width: 595px;
+    }
+    .banner{
+        display: none;
+    }
+    main{
+        width: 595px;
+    }
+    .card{
+        margin-top: 30px;
+    }
+    .foto-none{
+        display: none;
+    }
+    .foto1, .foto2{
+        width: 290px;
+    }
+    .conteudo-texto{
+        width: 595px;
+    }
+    .lado-esquerdo{
+        width: 320px;
+    }
+    .lado-direito{
+        width: 256px;
+    }
+    input, textarea{
+        width: 263px;
+    }
+}
+
+/*SMARTPHONE*/
+
+@media (max-width:767px){
+    
+    nav{
+        width: 200px;
+        flex-direction: column;
+        
+    }
+    
+    .menu{
+        flex-direction: column;
+        width: 200px;
+        margin-top: 30px;
+        display: none;
+    }
+    .menu li{
+        margin-bottom: 15px;
+    }
+    
+    main{
+        width: 320px;
+    }
+    .card-pai{
+        width: 250px;
+        margin: auto;
+    }
+    
+    .foto1{
+        display: none;
+    }
+    .conteudo-texto{
+        width: 320px;
+    }
+    
+    .footer-contato{
+        display: block;
+    }
+    
+    .lado-direito{
+        display: none;
+    }
+    .botao-menu{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

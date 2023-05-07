@@ -1,0 +1,30 @@
+/* fonte: EEE5DA; */
+/* cor de fundo: 669966; */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: #669966;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: #EEE5DA;
+}
+
+q, cite{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}

@@ -1,0 +1,47 @@
+body{
+    /* cor de fundo */
+    background-color: cornflowerblue;
+    /* opacidade  */
+    opacity: 0.9;
+    /* colocar uma imagem de fundo */
+    background-image: url("./img/logo_html.png");
+    /* Não repetir a imagem de fundo */
+    background-repeat: no-repeat;
+    /* colocar a imagem em uma posição especifica */
+    background-position: center  200px;
+}
+
+.titulo{
+    /* tamanho do texto */
+    font-size: 50px;
+    /* alinhamento do texto */
+    text-align: center;
+    /* distancia de uma linha para outra */
+    line-height: 100px;
+    /* estilo da fonte ex: italico */
+    font-style: italic;
+    /* negrito */
+    font-weight: 800;
+    /* para colocar o texto em caixa alta */
+    text-transform: uppercase;
+    /* cor do texto */
+    color: white;
+}
+
+#texto{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    /* colocar bordar */
+    border: 10px solid yellowgreen;
+    /* espaçamento interno */
+    padding: 20px;
+    /* espaçamento externo */
+    margin: 50px;
+    /* altura do elemento */
+    height: 80px;
+    /* largura do elemento */
+    width: 100px;
+}
+
+

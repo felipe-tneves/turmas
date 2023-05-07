@@ -1,0 +1,74 @@
+/*retirar todas as margins e paddings automáticos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.menu{
+/*    display: flex, dispoe os itens um do lado do outro*/
+    display: flex;
+    justify-content: space-between;/*espaço entre os itens*/
+    list-style: none;/*retira os marcadores*/
+    width: 480px;/*largura da tag ul/menu */
+}
+
+.menu a{
+    text-transform: uppercase; /*transforma o texto em maiusculas*/
+    color: white;
+    text-decoration: none; /*retira o sublinhado*/
+    font-family: arial;
+}
+
+/*Ao passar o mouse, utiliza-se o hover*/
+.menu a:hover{
+    border-bottom: 2px solid black;/*borda inferior*/
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+header{
+    background-color: tomato;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+
+div{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+

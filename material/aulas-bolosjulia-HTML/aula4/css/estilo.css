@@ -1,0 +1,48 @@
+*{
+    margin: 0; /*zera todas as margens automáticas*/
+    padding: 0;
+}
+
+header{
+/*    cor de fundo*/
+    background-color: beige;
+}
+
+nav{
+    display: flex; /*flexibiliza o display, coloca itens do lado do outro*/
+    justify-content: space-between;/*justifica o conteudo, espaço entre os itens*/
+    width: 1200px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+img{
+   width: 150px; 
+}
+
+.menu{
+/*    tira o marcador da lista*/
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    
+}
+
+.menu a{
+    color: black;
+    font-family: arial;
+    text-decoration: none; /*retira o sublinhado do link*/
+    text-transform: uppercase; /* link letras maiúsculas */
+    font-size: 20px; /*tamanho da fonte*/
+}
+
+.menu a:hover{ /*hover, quando passar o mouse*/
+    border-bottom: 2px solid black;
+    color: red;
+}
+
+
+

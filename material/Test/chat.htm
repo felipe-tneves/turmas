@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário</title>
+    <style>
+        /* Estilos para o formulário */
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* Estilos para mensagens de erro */
+        .error {
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulário de Contato</h1>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex: 999-999-9999"
+            required>
+
+        <label for="subject">Assunto:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Selecione um assunto</option>
+            <option value="suporte">Suporte técnico</option>
+            <option value="vendas">Vendas</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        const form = document.querySelector('form');
+        const nameInput = document.querySelector('#name');
+        const emailInput = document.querySelector('#email');
+        const phoneInput = document.querySelector('#phone');
+        const subjectInput = document.querySelector('#subject');
+        const messageInput = document.querySelector('#message');
+        const errorDiv = document.createElement('div');
+
+        form.addEventListener('submit', (event) => {
+            // Previne o envio padrão do formulário
+            event.preventDefault();
+
+            // Remove mensagens de erro anteriores
+            const errors = form.querySelectorAll('.error');
+            errors.forEach((error) => error.remove());
+
+            // Validação dos campos
+            if (nameInput.value.trim() === '') {
+                showError('Por favor, informe o seu nome.', nameInput);
+            }
+
+            if (emailInput.value.trim() === '') {
+                showError('Por favor, informe o seu e-mail.', emailInput);
+            }
+
+            if (phoneInput.value.trim() === '') {
+                showError('Por favor, informe o seu telefone.', phoneInput);
+            }
+
+            if (subjectInput.value === '') {
+                showError('Por favor, selecione um assunto.', subjectInput);
+            }
+
+            if (messageInput.value.trim() === '') {
+                showError('Obrigado por se cadastrar.', subjectInput);
+            }
+        })
+    </script>
+</body>
+         

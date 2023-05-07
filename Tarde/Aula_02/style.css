@@ -1,0 +1,39 @@
+p {
+    color: cadetblue;
+}
+
+.elemento_texto{
+    color: yellowgreen;
+}
+
+#segundo_subtitulo{
+    color: tomato;
+}
+
+.teste{
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.video{
+    height: 500px;
+    width: 700px;
+}
+
+#titulo_principal{
+    border: 30px solid black;
+    padding: 30px;
+    margin: 30px;
+}
+
+body{
+    background-color: cornflowerblue;
+    opacity: 0.3;
+    background-image: url("./img/logo_html.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}

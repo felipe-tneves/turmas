@@ -1,0 +1,64 @@
+/* Importando font no CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Retirar todas as margins e paddings automáticos */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.info_aula{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: rgb(177, 100, 100);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   width: 1200px;
+   margin: auto;
+}
+
+.menu{
+    /* display: flex, dispoe os elementos um do lado do outro */
+    display: flex;
+    /* tira a marcação dos item da lista */
+    list-style: none;
+    /* espaço entre os elementos */
+    justify-content: space-between;
+    /* lagura da tag ul/menu */
+    width: 480px;
+    /* alinhamento na altura */
+    align-items: center;
+}
+
+.menu a{
+    /* tira a marcação de hiper link */
+    text-decoration: none;
+    /* coloca as letras em maiuscula */
+    text-transform: uppercase;
+    /* altera a tipografia do meu texto */
+    font-family: 'Montserrat', sans-serif;
+    /* muda a cor do texto */
+    color: white;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid black;
+    font-size: 50px;
+    color: fuchsia;
+}

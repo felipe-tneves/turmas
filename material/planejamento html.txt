@@ -1,0 +1,73 @@
+Dia 01 - ok
+- HTML
+	Introdução
+	Como funciona?
+	Estrutura básica
+	Títulos
+	Paragrafo
+	Lista Ordenada e não ordenada
+- Exercicios
+-------------------------------------------------
+Dia 02 e 03 (2 dias ) - ok 
+- Imagens
+- Videos
+- Hiperlinks
+- CSS
+	O que é?
+	Como funciona?
+	Tipos
+	Seletores(Tags, Classes, ID)
+-Exercicios
+-------------------------------------------------
+Dia 04 - Layout - ok
+- DIV
+- Header
+- Nav
+	Menu
+- Article
+- Section
+- Footer
+- Aside
+
+- Exercicios 
+-------------------------------------------------
+Dia 05
+- Google fonts -- 3 formas css/html
+ifonts
+- Formulario
+- Menu 3 tipos de menu
+- Display Flex
+------------------------------------------------
+Dia 06
+- Frog
+
+Dia 06 
+- Começar o desenvolvimento da primeira página de lançamento estrategico
+-------------------------------------------------
+Dia 07
+- Reponsividade da primeira página de lançamento
+-------------------------------------------------
+
+-------------------------------------------------
+Dia 09 e 10 (2 dias) 
+- Desenvolvimento da segunda página de lançamento estrategico
+
+-------------------------------------------------
+Dia 11
+- Reponsividade da segunda página de lançamento
+-------------------------------------------------
+Dia 08
+- CEO
+-------------------------------------------------
+Dia 12 ( 3 dias )
+- Lançamento estrategico alunos
+
+Dia 15
+- Publicação no Github pages
+
+
+
+https://bxslider.com/
+	
+
+

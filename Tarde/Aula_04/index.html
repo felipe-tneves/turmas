@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+
+    <!-- Link font Bebas ( importando atraves do HTML) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Caminho do arquivo CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <img class="logo"  src="./img/logo-senai.jpg" alt="Logo Senai">
+            </a>
+
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Aula 04</h1>
+        <p class="info_aula">Nesta aula estamos vendo
+            Google fonts, Formulário e Display flex</p>
+        
+        <h2>Fomulário e menu</h2>
+        
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <form action="">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" min="1" max="5">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="country">País</label>
+                <select name="country" id="country">
+                    <option value="brasil">Brasil</option>
+                    <option value="eua">Estados Unidos</option>
+                    <option value="paquistao">Paquistão</option>
+                </select>
+
+                <label for="message">Menssagem:</label>
+                <textarea name="message" id="Menssagem" cols="30" rows="5"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </fieldset>
+
+        <form class="form2">
+
+            <!-- Formulário com checkbox -->
+            <input type="checkbox" name="bike" id="bike">
+            <label for="bike">Bike</label>
+
+            <input type="checkbox" name="car" id="car">
+            <label for="car">Car</label>
+
+            <input type="checkbox" name="boat" id="boat">
+            <label for="boat">Boat</label>
+
+            <!-- Formulário com elemento radio -->
+            <input type="radio" id="html" name="fav_langue">
+            <label for="html">HTML</label>
+
+            <input type="radio" id="css" name="fav_langue">
+            <label for="css">CSS</label>
+
+            <input type="radio" id="javascript" name="fav_langue">
+            <label for="javascript">Javascript</label>
+
+        </form>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

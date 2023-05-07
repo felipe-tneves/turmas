@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 175px;
+    background-color: aquamarine;
+}
+
+h1{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+ul{
+   width: 100%;
+   height: 75px;
+   background-color: turquoise; 
+}
+
+main{
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+.artigo{
+    width: 100%;
+    height: 225px;
+    background-color: burlywood;
+}
+
+.artigo1{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+.artigo1 h2{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+}
+
+.artigo1 p{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+
+.artigo2{
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+
+.artigo2 h2{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+}
+
+.artigo2 p{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+}
+
+.barra_lateral{
+    width: 50%;
+    height: 100px;
+    background-color: chocolate;
+}
+
+aside{
+    width: 50%;
+    height: 90px;
+    background-color: tan;
+}
+
+aside h3{
+    width: 100%;
+    height: 40px;
+    background-color: yellowgreen;
+}
+
+aside p{
+    width: 100%;
+    height: 40px;
+    background-color: pink;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+}
+
+footer p{
+    width: 100%;
+    height: 30px;
+    background-color: darkseagreen;
+}

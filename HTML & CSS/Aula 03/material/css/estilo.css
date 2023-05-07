@@ -1,0 +1,56 @@
+.logo{
+    width: 200px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+body{
+    font-family: arial;
+}
+
+main{
+    width: 1170px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.unidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.unidades p{
+    width: 650px;
+    margin-top: 50px;
+}
+.unidades img{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+

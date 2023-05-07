@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <title>Bolos Júlia - Bolos</title>
+        
+        <!--        link do jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+    
+        <style>
+            main{
+                width: 1140px;
+                margin: 0 auto;
+                
+            }
+            .cards-pai{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .menu{
+                display: flex;
+                justify-content: space-between;
+                width: 400px;
+                list-style: none;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 1140px;
+                margin: 0 auto;
+            }
+            .logo{
+                width: 200px;
+            }
+            .menu a{
+                color: black;
+                text-decoration: none;
+            }
+            .menu a:hover{
+                border-bottom: 1px solid black;
+                color: red;
+            }
+            .cards-filho img{
+                border-radius: 15px;
+            }
+            #teste{
+                color: red;
+            }
+            button img{
+                width: 50px;
+            }
+            button{
+                border: 0;
+                display: none;
+            }
+            
+            
+/*            TABLET*/
+            @media (max-width:1169px){
+                nav{
+                    width: 750px;
+                }
+                main{
+                    width: 750px;
+                }
+            }
+            
+/*            SMARTPHONE*/
+            @media (max-width:767px){
+                nav{
+                    width: 320px;
+                    flex-direction: column;
+                }
+                .menu{
+                    flex-direction: column;
+                    width: 320px;
+                    text-align: center;
+                    display: none;
+                }
+                main{
+                    width: 320px;
+                }
+                button{
+                    display: block;
+                    margin-top: 20px;
+                }
+            }
+        </style>
+        <script>
+        
+            $(function() {
+                $('.botao-menu').click(function(){
+                    $('.menu').slideToggle(); 
+                });
+            });
+                
+        </script>
+    </head>
+    <body>
+        <header id="topo">
+            <nav>
+                <a href="index.html"><img src="imagens/logo.png" alt="Logo da Bolos Júlia" class="logo"></a>
+                <button class="botao-menu"><img src="imagens/botao-menu.png"></button>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="bolos.html">Bolos</a></li>
+                    <li><a href="#">Kits</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Bolos 350g</h2>
+            <div class="cards-pai">
+                <div class="cards-filho">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                 <div class="cards-filho">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                 <div class="cards-filho">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                 <div class="cards-filho" id="teste">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                 <div class="cards-filho">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                 <div class="cards-filho">
+                    <img src="imagens/fuba.png">
+                    <p>Bolo de Fubá</p>
+                    <p class="preco">R$<span>15,00</span></p>
+                </div>
+                
+            </div>
+        </main>
+        
+    </body>
+</html>
+
+
+
+
+

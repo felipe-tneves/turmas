@@ -1,0 +1,55 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+label{
+   margin-bottom: 10px; 
+}
+
+.btn{
+    background-color: #F6511D;
+    border: 2px solid #F6511D;
+    color: white;
+    width: 180px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #F6511D;
+    color: #F6511D;
+}
+
+.botao{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

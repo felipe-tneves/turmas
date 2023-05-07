@@ -1,0 +1,24 @@
+:root {
+    --cor_fonte: #EEE5DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}

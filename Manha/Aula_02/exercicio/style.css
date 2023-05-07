@@ -1,0 +1,14 @@
+/* Seletor tag  */
+img{
+    height: 500px;
+    width: 300px;
+}
+/* Seletor id */
+#texto_principal{
+    text-transform: uppercase;
+}
+
+/* Seletor class */
+.texto_principal{
+    font-size: 20px;
+}

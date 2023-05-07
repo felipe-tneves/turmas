@@ -1,0 +1,36 @@
+p {
+    color: cadetblue;
+}
+
+#primeiro_subtitulo{
+    color: chartreuse;
+}
+
+.elemento_texto{
+    color: #8f3789;
+}
+
+#teste{
+    font-size: 50px;
+    color: cornflowerblue;
+    text-align: center;
+    line-height: 100px;
+    /* Comentario */
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.titulo_principal{
+    border: 30px solid black;
+    padding: 30px;
+    margin: 50px;
+}
+
+body{
+    background-color: violet;
+    opacity: 0.9;
+    background-image: url("./img/html_logo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}

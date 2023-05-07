@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <title>Bolos Júlia - Sobre</title>
+        <link rel="stylesheet" href="css/estilo.css">
+<!--        Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+    <script type = "text/javascript">
+
+    function changeImage()
+    {
+        var images = [];
+        
+        images[0] = "imagens/cenoura.png";
+        images[1] = "imagens/abacaxi.png";
+        images[2] = "imagens/assinatura.png";
+        
+        var img = document.getElementById("img");
+        var atual = 0;
+        
+        var ultima = localStorage.getItem("atual");
+        
+        
+        if(ultima >= images.length){
+            ultima = 0;
+        }
+        
+        img.src = images[ultima]; 
+        
+        atual = ultima;
+        atual++;
+        
+        localStorage.setItem("atual", atual);
+    }
+        </script>
+    </head>
+
+        
+   
+    <body onload = "changeImage()">
+        <header>
+            <nav>
+                <a href="index.html"><img src="imagens/logo.png" alt="Logo da Bolos Júlia"></a>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="bolos.html">Bolos</a></li>
+                    <li><a href="#">Kits</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div   class="banner-teste">
+                
+                 <img id="img" src="">
+            </div>
+            <!--        teste alternando banner-->
+       
+    
+   
+ 
+            <h2>Bolos Júlia</h2>
+            <div class="cards-pai">
+                <div class="img-sobre">
+                    <img src="imagens/sobre.png" alt="confeiteiro peneirandado chocolate em pó">
+                    <div class="teste">
+                        <h2>Titulo</h2>
+                        <p>Teste</p>
+                    </div> 
+                </div>
+                <div class="texto-sobre">
+                    <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu
+                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatr</p>
+                </div>
+            </div>
+            <h2>Valores</h2>
+            <div class="cards-pai">
+                <div class="cards-filho margem">
+                    <img src="imagens/qualidade.png" alt="símbolo qualidade">
+                    <p>Qualidade</p>
+                </div>
+                <div class="cards-filho margem">
+                    <img src="imagens/confian%C3%A7a.png" alt="símbolo confiança">
+                    <p>Confiança</p>
+                </div>
+                <div class="cards-filho margem">
+                    <img src="imagens/simplicidade.png" alt="símbolo">
+                    <p>Simplicidade</p>
+                </div>
+                <div class="cards-filho margem">
+                    <img src="imagens/conforto.png" alt="símbolo">
+                    <p>Conforto</p>
+                </div>
+            </div>
+            <h2>Clube de Assinatura</h2>
+            <div class="cards-pai">
+                <div class="img-assinatura">
+                    <img src="imagens/assinatura.png" alt="biscoitos" class="biscoito">
+                </div>
+                <div class="texto-assinatura">
+                    <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu</p>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8905833510294!2d-46.64839228518897!3d-23.536437484695206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deb99025%3A0xb23619858bc7e63e!2sEscola%20SENAI%20de%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1629979083727!5m2!1spt-BR!2sbr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+<!--            MODAL-->
+            <style>
+                .texto-modal{
+                    width: 70%;
+                    padding: 20px;
+                    margin: auto;
+                    
+                }
+                .modal header{
+                    background-color: #000;
+                    color: white;
+                    height: 50px;
+                    border: 0;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+                .modal .teste{
+                    font-size: 24px;
+                    border-radius: 10px;
+                    border: 0;
+                    padding: 2px 5px;
+                    margin: 5px 6px;
+                }
+                .modalm{
+                    border-radius: 10px;
+                }
+            </style>
+           <div class="modal"> 
+            <img src="imagens/cenoura.png" onclick="document.getElementById('modal1').style.display='block'">
+
+              <div id="modal1" class="w3-modal">
+                <div class="modalm w3-modal-content w3-animate-top ">
+                  <header>
+                    <span onclick="document.getElementById('modal1').style.display='none'" 
+                    class="teste w3-button w3-display-topright">&times;</span>
+
+                    <h2>Modal Header</h2>
+                    </header>
+                  <div class="texto-modal">
+                    <p>Some text..</p>
+                    <p>Some text..</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </main>
+        <footer>
+            <div class="rodape">
+                <p>Todos os direitos reservados</p>
+                <div class="redes">
+                    <a href="https://api.whatsapp.com/send?phone=5531985689847" target="_blank"><img src="imagens/whats.png" alt="whatsapp"></a>
+
+                    <a href="#" target="_blank"><img src="imagens/face.png" alt="facebook"></a>
+
+                    <a href="#" target="_blank"><img src="imagens/instag.png" alt="instagran"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,11 @@
+ /* id => # */
+ #text_unico {
+     color: blue;
+     text-transform: uppercase;
+ }
+
+ /* class => . */
+ .texto {
+     color: pink;
+     font-weight: bold;
+ }

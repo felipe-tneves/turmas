@@ -1,0 +1,449 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fotog1{
+    position: relative;
+    width: 543px;
+    height: 432px;
+    
+}
+.fotog1 p{
+    
+    width: 543px;
+    height: 432px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.4);
+    display: none;
+}
+
+.fotog1:hover p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*
+.carrossel{
+    background-image: linear-gradient(to bottom, transparent 0%, black 80%), url(../imagens/slide1.png);
+    
+    height: 567px;
+}
+*/
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    border-bottom: 2px solid #D0CCCC;
+}
+
+nav img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poiret One', cursive;
+}
+
+.menu a:hover, .ativo{
+/*    border-bottom: 1px solid #000000;*/
+    background-color: green;
+    padding: 20px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 50px auto 50px auto;
+/*
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+*/
+
+}
+
+.carrossel img{
+    width: 100%;
+}
+
+main{
+    width: 1170px;
+    margin: auto;
+}
+
+.cards-pai{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;/*quebra os elementos qdo não hover mais espaço*/
+}
+
+.cards-filho img{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.cards-filho p{
+    text-align: center;
+}
+
+.cards-filho2 p{
+    text-align: left;
+}
+
+h5{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 36px;
+    font-family: 'Poiret One', cursive;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Poiret One', cursive;
+}
+.topo{
+    width: 60px;
+}
+.aproveite{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-aproveite{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-aproveite img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 250px;
+    margin-left: 30px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: #AED9E0;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 150px;
+    border: 2px solid #AED9E0;
+}
+
+.btn:hover{
+    border: 2px solid #AED9E0;
+    background-color: white;
+}
+
+.texto-sobre{
+    width: 465px;
+    text-align: justify;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.texto-assinatura{
+    width: 800px;
+    text-align: justify;
+}
+
+.biscoito{
+    width: 250px;
+}
+
+.preco{
+    color: #F87700;
+}
+
+.pote{
+    width: 250px;
+}
+
+span{
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #5B3331;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.footer-contato{
+    display: none;
+}
+
+.margem-bottom{
+    margin-bottom: 70px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input, textarea{
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #5B3331;
+    border-radius: 10px;
+}
+
+textarea{
+    height: 125px;
+}
+
+.esquerdo{
+    border: 1px solid #5B3331;
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+    margin-top: 60px;
+}
+
+.direito{
+    background-color: #5B3331;
+    color: white;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    border-radius: 10px;
+    line-height: 2.5;
+}
+
+button{
+    border: 0;
+    display: none;
+}
+
+button img{
+    width: 50px;
+}
+
+/*Responsividade*/
+
+/*TABLET*/
+
+@media (max-width:1169px){
+    
+    nav{
+        width: 700px;
+    }
+    .carrossel{
+        display: none;
+    }
+    main{
+        width: 700px;
+    }
+    .cards-aproveite{
+        margin-bottom: 70px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .rodape{
+        width: 700px;
+    }
+    .aproveite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-sobre{
+        width: 700px;
+        margin-top: 70px;
+    }
+    .img-sobre{
+        width: 550px;
+        margin: auto;
+    }
+    .texto-assinatura{
+        width: 430px;
+        margin-bottom: 70px;
+    }
+    .footer-contato{
+        display: block;
+    }
+    .direito{
+        display: none;
+    }
+}
+
+
+/*SMARTPHONE*/
+
+@media (max-width:767px){
+    
+    nav{
+        width: 320px;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        width: 200px;
+        margin-top: 37px;
+        display: none;
+    }
+    .menu li{
+        margin-bottom: 15px;
+    }
+    
+    main{
+        width: 320px;
+    }
+    .rodape p{
+        display: none;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+    .rodape{
+        width: 320px;
+        margin: auto;
+    }
+    .redes{
+        margin: auto;
+    }
+    
+    .cards-aproveite{
+        width: 250px;
+        margin: 60px auto;
+    }
+    .img-sobre{
+        width: 320px;
+    }
+    .img-sobre img{
+        width: 320px;
+    }
+    .margem{
+        margin: 10px;
+    }
+    .texto-assinatura{
+        margin-top: 60px;
+    }
+    .biscoito{
+        width: 320px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    
+    input, textarea{
+        width: 280px;
+    }
+    
+    .esquerdo{
+        width: 320px;
+    }
+    
+    button{
+        display: block;
+        margin-top: 30px;
+    }
+}
+  
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

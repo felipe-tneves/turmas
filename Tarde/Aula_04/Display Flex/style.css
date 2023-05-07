@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+
+    /* Alinha os elementos em coluna */
+    /* Os elementos iram se inverter */
+    /* flex-direction: column; */
+
+    /* Alinhamento horizontal */
+    align-items: center;
+    /* Alinhamento vertical */
+    justify-content: space-between;
+
+    /* height: 300px; */
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}   
+
+button{
+    padding: 15px;
+}

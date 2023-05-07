@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Aula Menu</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">
+                <img src="imagens/logo-senai.jpg" alt="Logo do Senac" class="logo">
+            </a>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Fomulario e menu</h1>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <form action="">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="country">País:</label>
+                <select id="country" name="country">
+                    <option value="brasil">Brasil</option>
+                    <option value="eua">Estados Unidos</option>
+                    <option value="japao">Japão</option>
+                </select>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+
+            </form>
+        </fieldset>
+
+        <div>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </main>
+</body>
+
+</html>

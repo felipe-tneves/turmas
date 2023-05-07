@@ -1,0 +1,21 @@
+.parallax {
+	background-image: url('./parallax.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.parallax-text {
+	color: #fff;
+	text-align: center;
+}
+
+.content {
+	padding: 50px;
+	background-color: #fff;
+}

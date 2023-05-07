@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <title>Bolos Júlia - Home</title>
+        <link rel="stylesheet" href="css/estilo.css">
+<!--        Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand&display=swap" rel="stylesheet">
+<!--       bxslider        -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        
+<!--        link do jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        
+        <script>
+//            javascript do carrossel
+            $(document).ready(function(){
+              $('.slider').bxSlider();
+            });
+            
+//            javascritp do botão menu responsivo
+            
+            $(function() {
+                $('.botao-menu').click(function(){
+                    $('.menu').slideToggle(); 
+                });
+            });
+                  
+        </script>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="imagens/logo.png" alt="Logo da Bolos Júlia"></a>
+                <button class="botao-menu"><img src="imagens/botao-menu.png"></button>
+                <ul class="menu">
+                    <li><a href="index.html" class="ativo">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="bolos.html">Bolos</a></li>
+                    <li><a href="#">Kits</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="carrossel">
+            <div class="slider">
+                <div><img src="imagens/slide1.png"></div>
+                <div><img src="imagens/slide2.png"></div>
+                <div><img src="imagens/slide3.png"></div>
+            </div>
+        </div>
+        <main>
+            <h2>Mais Vendidos</h2>
+            <div class="cards-pai">
+                <div class="cards-filho">
+                    <img src="imagens/cenoura.png" alt="bolo de cenoura">
+                    <p>Bolo de cenoura</p>
+                </div>
+                
+                <div class="cards-filho">
+                    <img src="imagens/fuba.png" alt="bolo de fubá">
+                    <p>Bolo de fubá</p>
+                </div>
+                
+                <div class="cards-filho">
+                    <img src="imagens/larnja.png" alt="bolo de laranja">
+                    <p>Bolo de laranja</p>
+                </div>
+                
+            </div>
+            <h2>Aproveite</h2>
+            <div class="aproveite">
+                <div class="cards-aproveite">
+                    <img src="imagens/assinatura.png" alt="caixa de biscoito">
+                    <div class="card">
+                        <h3>Clube de assinatura</h3>
+                        <p>Se torne cliente fidelizado e receba diversas vantagens</p>
+                        <a href="sobre.html" class="btn">Saiba mais</a>
+                    </div>
+                </div> 
+                
+                <div class="cards-aproveite">
+                    <img src="imagens/seubolo.png" alt="bolo com cobertura">
+                    <div class="card">
+                        <h3>Monte seu bolo</h3>
+                        <p>Escolha os ingredientes e receba um bolo feito para você!</p>
+                        <a href="bolos.html" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="rodape">
+                <p>Todos os direitos reservados</p>
+                <div class="redes">
+                    <a href="https://api.whatsapp.com/send?phone=5531985689847" target="_blank"><img src="imagens/whats.png" alt="whatsapp"></a>
+
+                    <a href="#" target="_blank"><img src="imagens/face.png" alt="facebook"></a>
+
+                    <a href="#" target="_blank"><img src="imagens/instag.png" alt="instagran"></a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+

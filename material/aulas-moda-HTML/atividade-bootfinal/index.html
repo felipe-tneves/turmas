@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <title>Bootstrap - Atividade</title>
+
+  <!--        bootstrap-->
+  <!--        css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--        javascritp-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!--        fim bootstrap-->
+  <style>
+    .logotipo {
+      width: 300px;
+    }
+
+    header {
+      background-color: #000;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+
+    }
+
+    .nav-cinema a {
+      color: #fff;
+    }
+
+    .botao {
+      border: 1px solid #fff;
+    }
+
+    h2 {
+      color: #FF0101;
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    #cinema {
+      padding-top: 90px;
+    }
+
+    .carrossel {
+      margin-bottom: 50px;
+    }
+
+    #contato {
+      margin-bottom: 50px;
+    }
+
+    footer {
+      background-color: #FF0101;
+      color: #fff;
+      text-align: center;
+      font-family: arial;
+      padding: 30px 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav-cinema container navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="imagens/logo.png" class="logotipo"></a>
+      <button class="botao navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#cinema">Cinema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#filmes">Filmes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <section id="cinema" class="container">
+    <h2>Cinema Brasileiro</h2>
+    <div class="row">
+      <div class="col-5">
+        <p>Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis
+          pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque
+          amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel
+          mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus,
+          sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante
+          sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue
+          tincidunt proin elit fringilla.
+
+        </p>
+        <p>Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis
+          pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque
+          amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel
+          mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus,
+          sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante
+          sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue
+          tincidunt proin elit fringilla.
+
+        </p>
+
+
+      </div>
+      <div class="col-7">
+        <img src="imagens/cinema-brasileiro.jpg" alt="cartaz com artistas brasileiros">
+      </div>
+    </div>
+  </section>
+  <section id="filmes" class="container">
+    <h2>Filmes</h2>
+    <div id="carouselExampleControls" class="carrossel carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imagens/slide1.jpg" alt="Cartaz o Cravo e a Rosa">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagens/slide2.png" alt="filmes recentes brasileiros">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagens/slide3.png" alt="atrizes brasileiras">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <p>Lorem ipsum turpis est eget congue tristique interdum, convallis donec habitant massa litora pulvinar quis
+      pellentesque, sagittis nisi mattis faucibus dictum etiam. fusce integer tempor sagittis himenaeos pellentesque
+      amet, ornare quis accumsan sagittis tincidunt donec nullam, metus quis sed habitasse lectus. porta litora vel
+      mollis a viverra libero felis pretium cubilia, ad dui venenatis lorem felis curabitur lobortis aliquet risus,
+      sapien egestas bibendum eu nec aptent aliquam tempus. himenaeos mattis sem adipiscing eleifend lobortis ante
+      sollicitudin conubia, nunc praesent lobortis condimentum diam purus integer, facilisis imperdiet augue tincidunt
+      proin elit fringilla.</p>
+  </section>
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Seu email">
+        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Senha</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Todos os direitos reservados</p>
+  </footer>
+
+</body>
+
+</html>

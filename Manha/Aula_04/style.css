@@ -1,0 +1,70 @@
+/* Importando font no CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Retirar todas as margins e paddings automáticos */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(233, 102, 79);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu{
+    /* display: flex, dispoe os elementos um do lado do outro */
+    display: flex;
+    /* espaço entre os elementos */
+    justify-content: space-between; 
+    /* retira os marcadores da lista */
+    list-style: none;
+    /* largura da tag ul/menu */
+    width: 480px;
+    /* alinhamento na altura */
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid black;
+    color: fuchsia;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* Formulário */
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+fieldset{
+    padding: 100px 50px 50px 50px;
+}
+
+.info_aula{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form02{
+    margin: 50px;
+}

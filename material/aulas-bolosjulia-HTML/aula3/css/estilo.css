@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+
+
+.logo{
+    width: 200px;
+}
+
+body{
+    font-family: arial;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    background-color: gainsboro;
+    padding: 25px;
+}
+
+main{
+    width: 1170px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.unidades{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unidades p{
+    width: 650px;
+    margin: 25px;
+    
+}
+
+.unidade1{
+    text-align: right;
+    
+}
+.unidade2{
+    text-align: left;
+        
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+
+
+
+
+
